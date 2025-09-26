@@ -11,6 +11,12 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/09/26/11/20250926113028-KU2F1EVT.js" defer></script>
+    
+
     <title>StarBucks-Br</title>
 </head>
 
@@ -36,12 +42,15 @@
     </div>
 
     <div class="caixa-menu">
-        <img src="img/thumb1.png" alt="copo botao1" class="botao-menu">
-        <img src="img/thumb2.png" alt="copo botao2" class="botao-menu">
-        <img src="img/thumb3.png" alt="copo botao3" class="botao-menu">
-
+        <img src="img/thumb1.png" alt="copo botao1" class="botao-menu" onclick="mudarCor('#017143')" >
+        <img src="img/thumb2.png" alt="copo botao2" class="botao-menu" onclick="mudarCor('#eb7495')">
+        <img src="img/thumb3.png" alt="copo botao3" class="botao-menu" onclick="mudarCor('#d752b1')">
     </div>
     
 </body>
+
+<script src="scripts.js"></script>
+<!-- Convenção de boas práticas colocar após o body, pois o conteúdo
+precisa carregar primeiro para a página não travar-->
 
 </html>
